@@ -7,11 +7,11 @@ const Shop = () => {
     useEffect( () => {
         fetch('https://www.themealdb.com/api/json/v1/1/search.php?f=a')
         .then(res => res.json())
-        .then(data => setFoods(data))
+        .then(data => setFoods(data.meals))
     },[]);
     return (
         <div className='container'>
-            <div className="product-container">
+            <div className="food-container">
            
                 {
                     

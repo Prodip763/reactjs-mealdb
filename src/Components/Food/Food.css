@@ -1,0 +1,21 @@
+.food img{
+    width: 286px;
+    height: 286px;
+    border-radius: 8px;
+    margin: 7px;
+}
+.food{
+    width: 300px;
+    height: 980px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    
+}
+.food-name{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+
+}
